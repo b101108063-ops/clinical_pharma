@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="zh-tw" dir="ltr">
+<head>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="中樞神經傳導物質# 傳導物質 興奮 (受器) 興奮 (機轉) 抑制 (受器) 抑制 (機轉) Glutamate NMDA 本身為離子通道，活化 K⁺、Na⁺、Ca²⁺ 通道。 AMPA 本身為離子通道，活化 K⁺、Na⁺ 通道。 kainate 本身為離子通道，活化 K⁺、Na⁺ 通道。 Tachykinin (Substance P, neurokinin) NK₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 GABA GABAₐ 開啟 Cl⁻ 通道 GABA_B Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道。 Dopamine D₁ Gs：↑cAMP (但書上仍歸類到抑制)。 D₂ Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。 Opioid μ Gi：抑制 Ca²⁺ 通道、↓cAMP。 κ Gi：活化 K⁺ 通道、↓cAMP。 Glycine Glycine-R 本身為離子通道，開啟 Cl⁻ 通道。 Ach M₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 M₂ Gi：↓cAMP、活化 K⁺ 通道。 N_N 本身為離子通道，活化 Na⁺ 通道。 NE α₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 α₂ Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。 β₁ Gs：抑制 K⁺ 通道、↑cAMP。 β₂ Gs：↑cAMP。 Histamine H₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 H₃ Gi：抑制 autoreceptor。 H₂ Gs：抑制 K⁺ 通道、↑cAMP。 Serotonin 5-HT₂A Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 5-HT₁A Gi：↓cAMP、活化 K⁺ 通道。 5-HT₃ 本身為離子通道，活化 K⁺、Na⁺ 通道。 5-HT₄ Gs：抑制 K⁺ 通道。 5-HT (Serotonin) 受器# Receptor Mechanism Location/Effects 5-HT₁ₐ Gi Raphe nuclei、海馬迴。情緒相關。 5-HT₁ᵦ Gi Substantia nigra、globus pallidus、基底核。 5-HT₁D Gi 腦、腦膜血管。造成血管收縮、調節周邊神經。 5-HT₁E Gi 皮質、putamen。 5-HT₁F Gi 皮質、海馬迴。 5-HT₁P Gi 腸道神經系統。腸胃道：刺激蠕動及張力，造成腹瀉。 5-HT₂ₐ Gq 血小板、平滑肌、腦皮質、血管內皮。腦皮質：精神分裂、憂鬱等負向症狀相關。血小板聚集：平滑肌收縮(支氣管、血管、腸道收縮)、靜脈收縮(導致潮紅)。血管內皮：在骨骼肌、心臟的血管會 vasodilation，其他地方則是收縮。 5-HT₂ᵦ Gq 胃底部(fundus) 5-HT₂C Gq Choroid、海馬迴、substantia nigra。抑制食慾 5-HT₃ Na⁺-K⁺ Area posterma、sensory and enteric nerve。嘔吐中心。作用在迷走神經→Chemoreceptor reflex (Bezold-Jarisch reflex)，造成心跳變慢及低血壓。 5-HT₄ Gs CNS 及 myenteric neuron、平滑肌。腸胃道：活化後增加 Ach 釋出，造成 motility-enhancing 或 prokinetic effect。 5-HT₅ₐ,ᵦ ↓cAMP 腦 5-HT₆,₇ Gs 腦 Melatonin 受器# Receptor Mechanism Location/Effects MT₁ Gi Suprachiasmatic nucleus，引起睡眠。 MT₂ Gi Suprachiasmatic nucleus，與調節日夜節律及生理時鐘有關。 MT₃ enzyme 本身是一個酵素，生理意義不明，可能跟眼壓有關。 Tachykinin (包含 Substance P、neurokinin A、neurokinin B)# Receptor Mechanism Location/Effects NK₁ Gq 腦(行為、情緒、噁心嘔吐)、動脈擴張(造成 NO 釋放，BP 下降)、平滑肌(收縮、靜脈、腸胃道、支氣管)、腎臟(利尿)。 NK₂ Gq NK₃ Gq Endothelin# Receptor Mechanism Location/Effects ETₐ Gq 親和力 ET-1 &gt; ET-3，平滑肌(血管收縮)、腎臟(血管收縮，降低 GFR)、呼吸道(支氣管收縮)。 ETᵦ Gq 親和力 ET-1 = ET-3，血管內皮(促進 PGI₂ 及 NO 釋放，血管擴張)。 Gs 和 Gi 機轉說明# Gs 和 Gi：透過 adenylate cyclase 將 ATP 轉變成 cAMP 進行下游反應，Gs 會促進此作用，Gi 會抑制此作用。
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://b101108063-ops.github.io/clinical_pharma/docs/ch02/">
+  <meta property="og:site_name" content="臨床藥理精要">
+  <meta property="og:title" content="02 - 中樞神經傳導物質">
+  <meta property="og:description" content="中樞神經傳導物質# 傳導物質 興奮 (受器) 興奮 (機轉) 抑制 (受器) 抑制 (機轉) Glutamate NMDA 本身為離子通道，活化 K⁺、Na⁺、Ca²⁺ 通道。 AMPA 本身為離子通道，活化 K⁺、Na⁺ 通道。 kainate 本身為離子通道，活化 K⁺、Na⁺ 通道。 Tachykinin (Substance P, neurokinin) NK₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 GABA GABAₐ 開啟 Cl⁻ 通道 GABA_B Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道。 Dopamine D₁ Gs：↑cAMP (但書上仍歸類到抑制)。 D₂ Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。 Opioid μ Gi：抑制 Ca²⁺ 通道、↓cAMP。 κ Gi：活化 K⁺ 通道、↓cAMP。 Glycine Glycine-R 本身為離子通道，開啟 Cl⁻ 通道。 Ach M₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 M₂ Gi：↓cAMP、活化 K⁺ 通道。 N_N 本身為離子通道，活化 Na⁺ 通道。 NE α₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 α₂ Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。 β₁ Gs：抑制 K⁺ 通道、↑cAMP。 β₂ Gs：↑cAMP。 Histamine H₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 H₃ Gi：抑制 autoreceptor。 H₂ Gs：抑制 K⁺ 通道、↑cAMP。 Serotonin 5-HT₂A Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 5-HT₁A Gi：↓cAMP、活化 K⁺ 通道。 5-HT₃ 本身為離子通道，活化 K⁺、Na⁺ 通道。 5-HT₄ Gs：抑制 K⁺ 通道。 5-HT (Serotonin) 受器# Receptor Mechanism Location/Effects 5-HT₁ₐ Gi Raphe nuclei、海馬迴。情緒相關。 5-HT₁ᵦ Gi Substantia nigra、globus pallidus、基底核。 5-HT₁D Gi 腦、腦膜血管。造成血管收縮、調節周邊神經。 5-HT₁E Gi 皮質、putamen。 5-HT₁F Gi 皮質、海馬迴。 5-HT₁P Gi 腸道神經系統。腸胃道：刺激蠕動及張力，造成腹瀉。 5-HT₂ₐ Gq 血小板、平滑肌、腦皮質、血管內皮。腦皮質：精神分裂、憂鬱等負向症狀相關。血小板聚集：平滑肌收縮(支氣管、血管、腸道收縮)、靜脈收縮(導致潮紅)。血管內皮：在骨骼肌、心臟的血管會 vasodilation，其他地方則是收縮。 5-HT₂ᵦ Gq 胃底部(fundus) 5-HT₂C Gq Choroid、海馬迴、substantia nigra。抑制食慾 5-HT₃ Na⁺-K⁺ Area posterma、sensory and enteric nerve。嘔吐中心。作用在迷走神經→Chemoreceptor reflex (Bezold-Jarisch reflex)，造成心跳變慢及低血壓。 5-HT₄ Gs CNS 及 myenteric neuron、平滑肌。腸胃道：活化後增加 Ach 釋出，造成 motility-enhancing 或 prokinetic effect。 5-HT₅ₐ,ᵦ ↓cAMP 腦 5-HT₆,₇ Gs 腦 Melatonin 受器# Receptor Mechanism Location/Effects MT₁ Gi Suprachiasmatic nucleus，引起睡眠。 MT₂ Gi Suprachiasmatic nucleus，與調節日夜節律及生理時鐘有關。 MT₃ enzyme 本身是一個酵素，生理意義不明，可能跟眼壓有關。 Tachykinin (包含 Substance P、neurokinin A、neurokinin B)# Receptor Mechanism Location/Effects NK₁ Gq 腦(行為、情緒、噁心嘔吐)、動脈擴張(造成 NO 釋放，BP 下降)、平滑肌(收縮、靜脈、腸胃道、支氣管)、腎臟(利尿)。 NK₂ Gq NK₃ Gq Endothelin# Receptor Mechanism Location/Effects ETₐ Gq 親和力 ET-1 &gt; ET-3，平滑肌(血管收縮)、腎臟(血管收縮，降低 GFR)、呼吸道(支氣管收縮)。 ETᵦ Gq 親和力 ET-1 = ET-3，血管內皮(促進 PGI₂ 及 NO 釋放，血管擴張)。 Gs 和 Gi 機轉說明# Gs 和 Gi：透過 adenylate cyclase 將 ATP 轉變成 cAMP 進行下游反應，Gs 會促進此作用，Gi 會抑制此作用。">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="02 - 中樞神經傳導物質">
+  <meta itemprop="description" content="中樞神經傳導物質# 傳導物質 興奮 (受器) 興奮 (機轉) 抑制 (受器) 抑制 (機轉) Glutamate NMDA 本身為離子通道，活化 K⁺、Na⁺、Ca²⁺ 通道。 AMPA 本身為離子通道，活化 K⁺、Na⁺ 通道。 kainate 本身為離子通道，活化 K⁺、Na⁺ 通道。 Tachykinin (Substance P, neurokinin) NK₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 GABA GABAₐ 開啟 Cl⁻ 通道 GABA_B Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道。 Dopamine D₁ Gs：↑cAMP (但書上仍歸類到抑制)。 D₂ Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。 Opioid μ Gi：抑制 Ca²⁺ 通道、↓cAMP。 κ Gi：活化 K⁺ 通道、↓cAMP。 Glycine Glycine-R 本身為離子通道，開啟 Cl⁻ 通道。 Ach M₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 M₂ Gi：↓cAMP、活化 K⁺ 通道。 N_N 本身為離子通道，活化 Na⁺ 通道。 NE α₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 α₂ Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。 β₁ Gs：抑制 K⁺ 通道、↑cAMP。 β₂ Gs：↑cAMP。 Histamine H₁ Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 H₃ Gi：抑制 autoreceptor。 H₂ Gs：抑制 K⁺ 通道、↑cAMP。 Serotonin 5-HT₂A Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。 5-HT₁A Gi：↓cAMP、活化 K⁺ 通道。 5-HT₃ 本身為離子通道，活化 K⁺、Na⁺ 通道。 5-HT₄ Gs：抑制 K⁺ 通道。 5-HT (Serotonin) 受器# Receptor Mechanism Location/Effects 5-HT₁ₐ Gi Raphe nuclei、海馬迴。情緒相關。 5-HT₁ᵦ Gi Substantia nigra、globus pallidus、基底核。 5-HT₁D Gi 腦、腦膜血管。造成血管收縮、調節周邊神經。 5-HT₁E Gi 皮質、putamen。 5-HT₁F Gi 皮質、海馬迴。 5-HT₁P Gi 腸道神經系統。腸胃道：刺激蠕動及張力，造成腹瀉。 5-HT₂ₐ Gq 血小板、平滑肌、腦皮質、血管內皮。腦皮質：精神分裂、憂鬱等負向症狀相關。血小板聚集：平滑肌收縮(支氣管、血管、腸道收縮)、靜脈收縮(導致潮紅)。血管內皮：在骨骼肌、心臟的血管會 vasodilation，其他地方則是收縮。 5-HT₂ᵦ Gq 胃底部(fundus) 5-HT₂C Gq Choroid、海馬迴、substantia nigra。抑制食慾 5-HT₃ Na⁺-K⁺ Area posterma、sensory and enteric nerve。嘔吐中心。作用在迷走神經→Chemoreceptor reflex (Bezold-Jarisch reflex)，造成心跳變慢及低血壓。 5-HT₄ Gs CNS 及 myenteric neuron、平滑肌。腸胃道：活化後增加 Ach 釋出，造成 motility-enhancing 或 prokinetic effect。 5-HT₅ₐ,ᵦ ↓cAMP 腦 5-HT₆,₇ Gs 腦 Melatonin 受器# Receptor Mechanism Location/Effects MT₁ Gi Suprachiasmatic nucleus，引起睡眠。 MT₂ Gi Suprachiasmatic nucleus，與調節日夜節律及生理時鐘有關。 MT₃ enzyme 本身是一個酵素，生理意義不明，可能跟眼壓有關。 Tachykinin (包含 Substance P、neurokinin A、neurokinin B)# Receptor Mechanism Location/Effects NK₁ Gq 腦(行為、情緒、噁心嘔吐)、動脈擴張(造成 NO 釋放，BP 下降)、平滑肌(收縮、靜脈、腸胃道、支氣管)、腎臟(利尿)。 NK₂ Gq NK₃ Gq Endothelin# Receptor Mechanism Location/Effects ETₐ Gq 親和力 ET-1 &gt; ET-3，平滑肌(血管收縮)、腎臟(血管收縮，降低 GFR)、呼吸道(支氣管收縮)。 ETᵦ Gq 親和力 ET-1 = ET-3，血管內皮(促進 PGI₂ 及 NO 釋放，血管擴張)。 Gs 和 Gi 機轉說明# Gs 和 Gi：透過 adenylate cyclase 將 ATP 轉變成 cAMP 進行下游反應，Gs 會促進此作用，Gi 會抑制此作用。">
+  <meta itemprop="wordCount" content="1443">
+
+<title>02 - 中樞神經傳導物質 • 臨床藥理精要</title>
+<link rel="icon" href="/clinical_pharma/favicon.png" >
+<link rel="manifest" href="/clinical_pharma/manifest.json">
+<link rel="canonical" href="https://b101108063-ops.github.io/clinical_pharma/docs/ch02/">
+<link rel="stylesheet" href="/clinical_pharma/book.min.b71fe3c1d3675e52d80430d63a71819e12d05dee934e099a700bacfd4c49a7be.css" integrity="sha256-tx/jwdNnXlLYBDDWOnGBnhLQXe6TTgmacAus/UxJp74=" crossorigin="anonymous">
+
+
+  <script defer type="module" src="/clinical_pharma/en.search.min.0b5e1cccd525251788a546e8a19a4283618fc8ad170aecb9a537c72e92697cda.js" integrity="sha256-C14czNUlJReIpUbooZpCg2GPyK0XCuy5pTfHLpJpfNo=" crossorigin="anonymous"></script>
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/clinical_pharma/"><span>臨床藥理精要</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="搜索"
+    aria-label="搜索"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch01-receptor/" class="">
+      01 - 受器、機制及其作用</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch02/" class="active">
+      02 - 中樞神經傳導物質</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch03/" class="">
+      03 - PDE抑制劑</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch04/" class="">
+      04 - 擬交感神經藥物</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch05/" class="">
+      05 - 交感神經拮抗劑</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch06/" class="">
+      06 - 升壓劑</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch07/" class="">
+      07 - 自泌素</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch08/" class="">
+      08 - 擬副交感神經藥物</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch09/" class="">
+      09 - 抗膽鹼藥物</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch10/" class="">
+      10 - Vasopressin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch11/" class="">
+      11 - Endothelin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch12/" class="">
+      12 - Arachidonic Acid Cascade</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch13/" class="">
+      13 - 抗組織胺</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch14/" class="">
+      14 - 血清素</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch15/" class="">
+      15 - 麥角生物鹼</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch16/" class="">
+      16 - 體抑素</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/clinical_pharma/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>02 - 中樞神經傳導物質</h3>
+
+  <label for="toc-control">
+    
+    <img src="/clinical_pharma/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#5-ht-serotonin-受器">5-HT (Serotonin) 受器</a></li>
+    <li><a href="#melatonin-受器">Melatonin 受器</a></li>
+    <li><a href="#tachykinin-包含-substance-pneurokinin-aneurokinin-b">Tachykinin (包含 Substance P、neurokinin A、neurokinin B)</a></li>
+    <li><a href="#endothelin">Endothelin</a></li>
+    <li><a href="#gs-和-gi-機轉說明">Gs 和 Gi 機轉說明</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="中樞神經傳導物質">中樞神經傳導物質<a class="anchor" href="#%e4%b8%ad%e6%a8%9e%e7%a5%9e%e7%b6%93%e5%82%b3%e5%b0%8e%e7%89%a9%e8%b3%aa">#</a></h1>
+<table>
+  <thead>
+      <tr>
+          <th>傳導物質</th>
+          <th>興奮 (受器)</th>
+          <th>興奮 (機轉)</th>
+          <th>抑制 (受器)</th>
+          <th>抑制 (機轉)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Glutamate</strong></td>
+          <td>NMDA</td>
+          <td>本身為離子通道，活化 K⁺、Na⁺、Ca²⁺ 通道。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>AMPA</td>
+          <td>本身為離子通道，活化 K⁺、Na⁺ 通道。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>kainate</td>
+          <td>本身為離子通道，活化 K⁺、Na⁺ 通道。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><strong>Tachykinin (Substance P, neurokinin)</strong></td>
+          <td>NK₁</td>
+          <td>Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><strong>GABA</strong></td>
+          <td></td>
+          <td></td>
+          <td>GABAₐ</td>
+          <td>開啟 Cl⁻ 通道</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>GABA_B</td>
+          <td>Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道。</td>
+      </tr>
+      <tr>
+          <td><strong>Dopamine</strong></td>
+          <td></td>
+          <td></td>
+          <td>D₁</td>
+          <td>Gs：↑cAMP (但書上仍歸類到抑制)。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>D₂</td>
+          <td>Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。</td>
+      </tr>
+      <tr>
+          <td><strong>Opioid</strong></td>
+          <td></td>
+          <td></td>
+          <td>μ</td>
+          <td>Gi：抑制 Ca²⁺ 通道、↓cAMP。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>κ</td>
+          <td>Gi：活化 K⁺ 通道、↓cAMP。</td>
+      </tr>
+      <tr>
+          <td><strong>Glycine</strong></td>
+          <td></td>
+          <td></td>
+          <td>Glycine-R</td>
+          <td>本身為離子通道，開啟 Cl⁻ 通道。</td>
+      </tr>
+      <tr>
+          <td><strong>Ach</strong></td>
+          <td>M₁</td>
+          <td>Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。</td>
+          <td>M₂</td>
+          <td>Gi：↓cAMP、活化 K⁺ 通道。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>N_N</td>
+          <td>本身為離子通道，活化 Na⁺ 通道。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><strong>NE</strong></td>
+          <td>α₁</td>
+          <td>Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。</td>
+          <td>α₂</td>
+          <td>Gi：抑制 Ca²⁺ 通道、活化 K⁺ 通道、↓cAMP。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>β₁</td>
+          <td>Gs：抑制 K⁺ 通道、↑cAMP。</td>
+          <td>β₂</td>
+          <td>Gs：↑cAMP。</td>
+      </tr>
+      <tr>
+          <td><strong>Histamine</strong></td>
+          <td>H₁</td>
+          <td>Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。</td>
+          <td>H₃</td>
+          <td>Gi：抑制 autoreceptor。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>H₂</td>
+          <td>Gs：抑制 K⁺ 通道、↑cAMP。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><strong>Serotonin</strong></td>
+          <td>5-HT₂A</td>
+          <td>Gq：抑制 K⁺ 通道、↑IP₃、↑DAG。</td>
+          <td>5-HT₁A</td>
+          <td>Gi：↓cAMP、活化 K⁺ 通道。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>5-HT₃</td>
+          <td>本身為離子通道，活化 K⁺、Na⁺ 通道。</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>5-HT₄</td>
+          <td>Gs：抑制 K⁺ 通道。</td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="5-ht-serotonin-受器">5-HT (Serotonin) 受器<a class="anchor" href="#5-ht-serotonin-%e5%8f%97%e5%99%a8">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Receptor</th>
+          <th>Mechanism</th>
+          <th>Location/Effects</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>5-HT₁ₐ</td>
+          <td>Gi</td>
+          <td>Raphe nuclei、海馬迴。情緒相關。</td>
+      </tr>
+      <tr>
+          <td>5-HT₁ᵦ</td>
+          <td>Gi</td>
+          <td>Substantia nigra、globus pallidus、基底核。</td>
+      </tr>
+      <tr>
+          <td>5-HT₁D</td>
+          <td>Gi</td>
+          <td>腦、腦膜血管。造成血管收縮、調節周邊神經。</td>
+      </tr>
+      <tr>
+          <td>5-HT₁E</td>
+          <td>Gi</td>
+          <td>皮質、putamen。</td>
+      </tr>
+      <tr>
+          <td>5-HT₁F</td>
+          <td>Gi</td>
+          <td>皮質、海馬迴。</td>
+      </tr>
+      <tr>
+          <td>5-HT₁P</td>
+          <td>Gi</td>
+          <td>腸道神經系統。腸胃道：刺激蠕動及張力，造成腹瀉。</td>
+      </tr>
+      <tr>
+          <td>5-HT₂ₐ</td>
+          <td>Gq</td>
+          <td>血小板、平滑肌、腦皮質、血管內皮。腦皮質：精神分裂、憂鬱等負向症狀相關。血小板聚集：平滑肌收縮(支氣管、血管、腸道收縮)、靜脈收縮(導致潮紅)。血管內皮：在骨骼肌、心臟的血管會 vasodilation，其他地方則是收縮。</td>
+      </tr>
+      <tr>
+          <td>5-HT₂ᵦ</td>
+          <td>Gq</td>
+          <td>胃底部(fundus)</td>
+      </tr>
+      <tr>
+          <td>5-HT₂C</td>
+          <td>Gq</td>
+          <td>Choroid、海馬迴、substantia nigra。抑制食慾</td>
+      </tr>
+      <tr>
+          <td>5-HT₃</td>
+          <td>Na⁺-K⁺</td>
+          <td>Area posterma、sensory and enteric nerve。嘔吐中心。作用在迷走神經→Chemoreceptor reflex (Bezold-Jarisch reflex)，造成心跳變慢及低血壓。</td>
+      </tr>
+      <tr>
+          <td>5-HT₄</td>
+          <td>Gs</td>
+          <td>CNS 及 myenteric neuron、平滑肌。腸胃道：活化後增加 Ach 釋出，造成 motility-enhancing 或 prokinetic effect。</td>
+      </tr>
+      <tr>
+          <td>5-HT₅ₐ,ᵦ</td>
+          <td>↓cAMP</td>
+          <td>腦</td>
+      </tr>
+      <tr>
+          <td>5-HT₆,₇</td>
+          <td>Gs</td>
+          <td>腦</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="melatonin-受器">Melatonin 受器<a class="anchor" href="#melatonin-%e5%8f%97%e5%99%a8">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Receptor</th>
+          <th>Mechanism</th>
+          <th>Location/Effects</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>MT₁</td>
+          <td>Gi</td>
+          <td>Suprachiasmatic nucleus，引起睡眠。</td>
+      </tr>
+      <tr>
+          <td>MT₂</td>
+          <td>Gi</td>
+          <td>Suprachiasmatic nucleus，與調節日夜節律及生理時鐘有關。</td>
+      </tr>
+      <tr>
+          <td>MT₃</td>
+          <td>enzyme</td>
+          <td>本身是一個酵素，生理意義不明，可能跟眼壓有關。</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="tachykinin-包含-substance-pneurokinin-aneurokinin-b">Tachykinin (包含 Substance P、neurokinin A、neurokinin B)<a class="anchor" href="#tachykinin-%e5%8c%85%e5%90%ab-substance-pneurokinin-aneurokinin-b">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Receptor</th>
+          <th>Mechanism</th>
+          <th>Location/Effects</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>NK₁</td>
+          <td>Gq</td>
+          <td>腦(行為、情緒、噁心嘔吐)、動脈擴張(造成 NO 釋放，BP 下降)、平滑肌(收縮、靜脈、腸胃道、支氣管)、腎臟(利尿)。</td>
+      </tr>
+      <tr>
+          <td>NK₂</td>
+          <td>Gq</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>NK₃</td>
+          <td>Gq</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="endothelin">Endothelin<a class="anchor" href="#endothelin">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Receptor</th>
+          <th>Mechanism</th>
+          <th>Location/Effects</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ETₐ</td>
+          <td>Gq</td>
+          <td>親和力 ET-1 &gt; ET-3，平滑肌(血管收縮)、腎臟(血管收縮，降低 GFR)、呼吸道(支氣管收縮)。</td>
+      </tr>
+      <tr>
+          <td>ETᵦ</td>
+          <td>Gq</td>
+          <td>親和力 ET-1 = ET-3，血管內皮(促進 PGI₂ 及 NO 釋放，血管擴張)。</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="gs-和-gi-機轉說明">Gs 和 Gi 機轉說明<a class="anchor" href="#gs-%e5%92%8c-gi-%e6%a9%9f%e8%bd%89%e8%aa%aa%e6%98%8e">#</a></h2>
+<p>Gs 和 Gi：透過 adenylate cyclase 將 ATP 轉變成 cAMP 進行下游反應，Gs 會促進此作用，Gi 會抑制此作用。</p>
+<p>Gq：透過 phospholipase C 將細胞膜上的 phosphatidylinositol 4,5-biphosphate (PIP₂) 轉變成 inositol (1,4,5) trisphosphate (IP₃) 和 diacylglycerol (DAG)。IP₃ 會促使 Ca²⁺ 從內質網釋放，DAG 則會使 protein kinase C (PKC) 活化增加細胞內 Ca²⁺ 濃度，進行下游反應。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/clinical_pharma/docs/ch01-receptor/" class="flex align-center">
+        <img src="/clinical_pharma/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>01 - 受器、機制及其作用</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/clinical_pharma/docs/ch03/" class="flex align-center">
+        <span>03 - PDE抑制劑</span>
+        <img src="/clinical_pharma/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#5-ht-serotonin-受器">5-HT (Serotonin) 受器</a></li>
+    <li><a href="#melatonin-受器">Melatonin 受器</a></li>
+    <li><a href="#tachykinin-包含-substance-pneurokinin-aneurokinin-b">Tachykinin (包含 Substance P、neurokinin A、neurokinin B)</a></li>
+    <li><a href="#endothelin">Endothelin</a></li>
+    <li><a href="#gs-和-gi-機轉說明">Gs 和 Gi 機轉說明</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

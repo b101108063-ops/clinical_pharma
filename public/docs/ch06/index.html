@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-tw" dir="ltr">
+<head>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="升壓劑 (Vasopressor)# 藥物 劑量 適應症 作用 效果 副作用 Epinephrine
+1amp = 1mg 1mg IVP q3-5min VF, pulseless VT α BP↑→coronary perfusion↑ S/E: ↑ lactate、高血糖。 PEA, asystole α &#43; β Heart 收縮，vasoconstriction。 2-10 ug/min Unstable bradycardia β₁ HR↑ 泡法：6amp in D5W/NS 100ml，rate = 欲run dose。 Norepinephrine
+1amp = 4mg 1-40 ug/min Shock w/ HoTN α₁ &gt; β₁ S/E: distal limbs，ischemia。 泡法：2 amp in D5W/D5S 250ml，rate = 欲run dose x 2 (稀)。或 4 amp in D5W/D5S 250ml，rate = 欲run dose (濃須由中央靜脈給予)。 Dopamine
+1amp = 200mg 1-5 ug/kg/min Renal dose D₁ ↑ renal perfusion S/E: VPCs 5-20 ug/kg/min Heart dose β ↑ HR, CO→unstable bradycardia (2-10 ug/kg/min) &gt;20 ug/kg/min α Pulm HTN 泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 26.6。 Dobutamine
+1amp = 250mg 2-20 ug/kg/min Shock w/o HoTN β₁ &gt; β₂ 泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 33.3。 升壓劑選擇# 1. 心因性休克 (Cardiogenic shock) [ACLS (Field JM, 2010)]# (1) 收縮壓 &lt; 70：Levophed 0.5-30 μg/min 或 dopamine 5-20 μg/kg/min。
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://b101108063-ops.github.io/clinical_pharma/docs/ch06/">
+  <meta property="og:site_name" content="臨床藥理精要">
+  <meta property="og:title" content="06 - 升壓劑">
+  <meta property="og:description" content="升壓劑 (Vasopressor)# 藥物 劑量 適應症 作用 效果 副作用 Epinephrine
+1amp = 1mg 1mg IVP q3-5min VF, pulseless VT α BP↑→coronary perfusion↑ S/E: ↑ lactate、高血糖。 PEA, asystole α &#43; β Heart 收縮，vasoconstriction。 2-10 ug/min Unstable bradycardia β₁ HR↑ 泡法：6amp in D5W/NS 100ml，rate = 欲run dose。 Norepinephrine
+1amp = 4mg 1-40 ug/min Shock w/ HoTN α₁ &gt; β₁ S/E: distal limbs，ischemia。 泡法：2 amp in D5W/D5S 250ml，rate = 欲run dose x 2 (稀)。或 4 amp in D5W/D5S 250ml，rate = 欲run dose (濃須由中央靜脈給予)。 Dopamine
+1amp = 200mg 1-5 ug/kg/min Renal dose D₁ ↑ renal perfusion S/E: VPCs 5-20 ug/kg/min Heart dose β ↑ HR, CO→unstable bradycardia (2-10 ug/kg/min) &gt;20 ug/kg/min α Pulm HTN 泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 26.6。 Dobutamine
+1amp = 250mg 2-20 ug/kg/min Shock w/o HoTN β₁ &gt; β₂ 泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 33.3。 升壓劑選擇# 1. 心因性休克 (Cardiogenic shock) [ACLS (Field JM, 2010)]# (1) 收縮壓 &lt; 70：Levophed 0.5-30 μg/min 或 dopamine 5-20 μg/kg/min。">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="06 - 升壓劑">
+  <meta itemprop="description" content="升壓劑 (Vasopressor)# 藥物 劑量 適應症 作用 效果 副作用 Epinephrine
+1amp = 1mg 1mg IVP q3-5min VF, pulseless VT α BP↑→coronary perfusion↑ S/E: ↑ lactate、高血糖。 PEA, asystole α &#43; β Heart 收縮，vasoconstriction。 2-10 ug/min Unstable bradycardia β₁ HR↑ 泡法：6amp in D5W/NS 100ml，rate = 欲run dose。 Norepinephrine
+1amp = 4mg 1-40 ug/min Shock w/ HoTN α₁ &gt; β₁ S/E: distal limbs，ischemia。 泡法：2 amp in D5W/D5S 250ml，rate = 欲run dose x 2 (稀)。或 4 amp in D5W/D5S 250ml，rate = 欲run dose (濃須由中央靜脈給予)。 Dopamine
+1amp = 200mg 1-5 ug/kg/min Renal dose D₁ ↑ renal perfusion S/E: VPCs 5-20 ug/kg/min Heart dose β ↑ HR, CO→unstable bradycardia (2-10 ug/kg/min) &gt;20 ug/kg/min α Pulm HTN 泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 26.6。 Dobutamine
+1amp = 250mg 2-20 ug/kg/min Shock w/o HoTN β₁ &gt; β₂ 泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 33.3。 升壓劑選擇# 1. 心因性休克 (Cardiogenic shock) [ACLS (Field JM, 2010)]# (1) 收縮壓 &lt; 70：Levophed 0.5-30 μg/min 或 dopamine 5-20 μg/kg/min。">
+  <meta itemprop="wordCount" content="886">
+
+<title>06 - 升壓劑 • 臨床藥理精要</title>
+<link rel="icon" href="/clinical_pharma/favicon.png" >
+<link rel="manifest" href="/clinical_pharma/manifest.json">
+<link rel="canonical" href="https://b101108063-ops.github.io/clinical_pharma/docs/ch06/">
+<link rel="stylesheet" href="/clinical_pharma/book.min.b71fe3c1d3675e52d80430d63a71819e12d05dee934e099a700bacfd4c49a7be.css" integrity="sha256-tx/jwdNnXlLYBDDWOnGBnhLQXe6TTgmacAus/UxJp74=" crossorigin="anonymous">
+
+
+  <script defer type="module" src="/clinical_pharma/en.search.min.0b5e1cccd525251788a546e8a19a4283618fc8ad170aecb9a537c72e92697cda.js" integrity="sha256-C14czNUlJReIpUbooZpCg2GPyK0XCuy5pTfHLpJpfNo=" crossorigin="anonymous"></script>
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/clinical_pharma/"><span>臨床藥理精要</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="搜索"
+    aria-label="搜索"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch01-receptor/" class="">
+      01 - 受器、機制及其作用</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch02/" class="">
+      02 - 中樞神經傳導物質</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch03/" class="">
+      03 - PDE抑制劑</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch04/" class="">
+      04 - 擬交感神經藥物</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch05/" class="">
+      05 - 交感神經拮抗劑</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch06/" class="active">
+      06 - 升壓劑</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch07/" class="">
+      07 - 自泌素</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch08/" class="">
+      08 - 擬副交感神經藥物</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch09/" class="">
+      09 - 抗膽鹼藥物</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch10/" class="">
+      10 - Vasopressin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch11/" class="">
+      11 - Endothelin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch12/" class="">
+      12 - Arachidonic Acid Cascade</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch13/" class="">
+      13 - 抗組織胺</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch14/" class="">
+      14 - 血清素</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch15/" class="">
+      15 - 麥角生物鹼</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/clinical_pharma/docs/ch16/" class="">
+      16 - 體抑素</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/clinical_pharma/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>06 - 升壓劑</h3>
+
+  <label for="toc-control">
+    
+    <img src="/clinical_pharma/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#升壓劑選擇">升壓劑選擇</a>
+      <ul>
+        <li><a href="#1-心因性休克-cardiogenic-shock-acls-field-jm-2010">1. 心因性休克 (Cardiogenic shock) [ACLS (Field JM, 2010)]</a></li>
+        <li><a href="#2-severe-sepsis-and-septic-shock-surviving-sepsis-campaign-dellinger-rp-2013">2. Severe sepsis and septic shock [Surviving Sepsis Campaign (Dellinger RP, 2013)]</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="升壓劑-vasopressor">升壓劑 (Vasopressor)<a class="anchor" href="#%e5%8d%87%e5%a3%93%e5%8a%91-vasopressor">#</a></h1>
+<table>
+  <thead>
+      <tr>
+          <th>藥物</th>
+          <th>劑量</th>
+          <th>適應症</th>
+          <th>作用</th>
+          <th>效果</th>
+          <th>副作用</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Epinephrine<br>1amp = 1mg</td>
+          <td>1mg IVP q3-5min</td>
+          <td>VF, pulseless VT</td>
+          <td>α</td>
+          <td>BP↑→coronary perfusion↑</td>
+          <td>S/E: ↑ lactate、高血糖。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td>PEA, asystole</td>
+          <td>α + β</td>
+          <td>Heart 收縮，vasoconstriction。</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>2-10 ug/min</td>
+          <td>Unstable bradycardia</td>
+          <td>β₁</td>
+          <td>HR↑</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>泡法：6amp in D5W/NS 100ml，rate = 欲run dose。</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Norepinephrine<br>1amp = 4mg</td>
+          <td>1-40 ug/min</td>
+          <td>Shock w/ HoTN</td>
+          <td>α₁ &gt; β₁</td>
+          <td></td>
+          <td>S/E: distal limbs，ischemia。</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>泡法：2 amp in D5W/D5S 250ml，rate = 欲run dose x 2 (稀)。或 4 amp in D5W/D5S 250ml，rate = 欲run dose (濃須由中央靜脈給予)。</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Dopamine<br>1amp = 200mg</td>
+          <td>1-5 ug/kg/min</td>
+          <td>Renal dose</td>
+          <td>D₁</td>
+          <td>↑ renal perfusion</td>
+          <td>S/E: VPCs</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>5-20 ug/kg/min</td>
+          <td>Heart dose</td>
+          <td>β</td>
+          <td>↑ HR, CO→unstable bradycardia (2-10 ug/kg/min)</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>&gt;20 ug/kg/min</td>
+          <td></td>
+          <td>α</td>
+          <td>Pulm HTN</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 26.6。</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Dobutamine<br>1amp = 250mg</td>
+          <td>2-20 ug/kg/min</td>
+          <td>Shock w/o HoTN</td>
+          <td>β₁ &gt; β₂</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>泡法：2 amp in D5W/NS 250ml，rate = 欲run dose x BW / 33.3。</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="升壓劑選擇">升壓劑選擇<a class="anchor" href="#%e5%8d%87%e5%a3%93%e5%8a%91%e9%81%b8%e6%93%87">#</a></h2>
+<h3 id="1-心因性休克-cardiogenic-shock-acls-field-jm-2010">1. 心因性休克 (Cardiogenic shock) [ACLS (Field JM, 2010)]<a class="anchor" href="#1-%e5%bf%83%e5%9b%a0%e6%80%a7%e4%bc%91%e5%85%8b-cardiogenic-shock-acls-field-jm-2010">#</a></h3>
+<p>(1) 收縮壓 &lt; 70：Levophed 0.5-30 μg/min 或 dopamine 5-20 μg/kg/min。</p>
+<p>(2) 收縮壓 70-100 合併休克症狀：優先使用 dopamine 2-20 μg/kg/min，如果 dopamine 達 full dose，則再加上 Levophed。</p>
+<p>(3) 收縮壓 70-100 無合併休克症狀：dobutamine 2-20 μg/kg/min。</p>
+<h3 id="2-severe-sepsis-and-septic-shock-surviving-sepsis-campaign-dellinger-rp-2013">2. Severe sepsis and septic shock [Surviving Sepsis Campaign (Dellinger RP, 2013)]<a class="anchor" href="#2-severe-sepsis-and-septic-shock-surviving-sepsis-campaign-dellinger-rp-2013">#</a></h3>
+<p>(1) 治療目標為 MAP ≥ 65 mmHg (Grade 1C) 臨床上常以 SBP ≥ 90Hg。</p>
+<p>(2) 優先使用 norepinephrine (Levophed) (Grade 1B)。</p>
+<p>(3) Epinephrine 為第二線藥物，可以與 norepinephrine 併用，或者是取代 norepinephrine (Grade 2B)。</p>
+<p>(4) Vasopressin 0.03 units / min 可以做為使用 norepinephrine 後仍無法達到效果，或者是為了降低 NE 劑量時的添加藥物。Vasopressin 不建議做為單一起始藥物，而劑量超過 0.03-0.04 units/min 是在其他藥物都用過仍無法升壓時才使用的補救藥物。</p>
+<p>(5) Dopamine 只在 low risk for arrhythmias 及 low heart rate 及/或 low cardiac output 的病人建議取代 NE (Grade 2C)。不建議使用低劑量 dopamine 作為 renal protection (Grade 1A)。</p>
+<p>(6) Phenylephrine 僅在下列情況才建議用在 septic shock：① 使用 NE 導致嚴重的心律不整；② cardiac output 很高但是血壓仍低；③ 在使用各種強心劑以及 vasopressin 之後血壓仍低。</p>
+<p>(7) Dobutamine 在下列情況可嘗試給予：①心臟功能不好的病人 (high filling pressures and low cardiac output)；②在達到足夠的 intravascular volume 以及 MAP 後，仍有 signs of hypoperfusion (Grade 1C)。</p>
+<p>(8) 在給予 fluid resuscitation 以及 vasopressor 之後仍無法維持 hemodynamic 穩定，可以嘗試給予 hydrocortisone 200mg/day (Grade 2C)。當 vasopressor 停用之後，hydrocortisone 也要逐漸停用 (Grade 2D)。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/clinical_pharma/docs/ch05/" class="flex align-center">
+        <img src="/clinical_pharma/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>05 - 交感神經拮抗劑</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/clinical_pharma/docs/ch07/" class="flex align-center">
+        <span>07 - 自泌素</span>
+        <img src="/clinical_pharma/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#升壓劑選擇">升壓劑選擇</a>
+      <ul>
+        <li><a href="#1-心因性休克-cardiogenic-shock-acls-field-jm-2010">1. 心因性休克 (Cardiogenic shock) [ACLS (Field JM, 2010)]</a></li>
+        <li><a href="#2-severe-sepsis-and-septic-shock-surviving-sepsis-campaign-dellinger-rp-2013">2. Severe sepsis and septic shock [Surviving Sepsis Campaign (Dellinger RP, 2013)]</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
