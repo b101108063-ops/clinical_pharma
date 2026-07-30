@@ -10,6 +10,19 @@
 - 07 - 自泌素: https://b101108063-ops.github.io/clinical_pharma/docs/ch07/
 - 08 - 擬副交感神經藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch08/
 - 09 - 抗膽鹼藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch09/
+- CH17 心絞痛、心肌梗塞用藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch17/
+- CH18 利尿劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch18/
+- CH19 降血壓藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch19/
+- CH20 心臟衰竭用藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch20/
+- CH21 抗心律不整藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch21/
+- CH22 抗血栓藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch22/
+- CH23 抗出血藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch23/
+- CH24 降血脂藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch24/
+- CH25 全身麻醉劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch25/
+- CH26 局部麻醉劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch26/
+- CH27 肌肉鬆弛劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch27/
+- CH28 中樞神經興奮劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch28/
+- CH29 酒精: https://b101108063-ops.github.io/clinical_pharma/docs/ch29/
 - 10 - Vasopressin: https://b101108063-ops.github.io/clinical_pharma/docs/ch10/
 - 11 - Endothelin: https://b101108063-ops.github.io/clinical_pharma/docs/ch11/
 - 12 - Arachidonic Acid Cascade: https://b101108063-ops.github.io/clinical_pharma/docs/ch12/
