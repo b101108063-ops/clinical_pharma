@@ -1,0 +1,15 @@
+baseURL = "https://b101108063-ops.github.io/clinical_pharma/"
+languageCode = "zh-tw"
+title = "臨床藥理精要"
+theme = "hugo-book"
+enableRobotsTXT = true
+disableFastRender = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+BookSection = "docs"
+disableBreadcrumb = false
+disableChapterBreadcrumb = true
+
