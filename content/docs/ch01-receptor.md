@@ -1,12 +1,11 @@
 ---
 title: "01 - 受器、機制及其作用"
+weight: 1
 ---
 
 # 受器、機制及其作用（Receptors, Mechanisms and Actions）
 
-## 藥理學基礎
-
-### 藥物受器（Drug Receptors）
+## 藥物受器（Drug Receptors）
 
 藥物的作用機轉主要透過與體內特定 **受器（Receptor）** 結合而產生效果。
 
@@ -17,7 +16,7 @@ title: "01 - 受器、機制及其作用"
 | 酪氨酸激酶受體 | 單次跨膜 + 細胞內激酶區 | 自我磷酸化 | Insulin, Growth factors |
 | 核內受體 | 細胞內/核內 | 調控基因轉錄 | Steroids, Thyroid hormone |
 
-### 劑量-反應關係（ Dose-Response Relationship）
+## 劑量-反應關係（ Dose-Response Relationship）
 
 | 參數 | 定義 | 臨床意義 |
 |------|------|---------|
@@ -25,14 +24,6 @@ title: "01 - 受器、機制及其作用"
 | TD50 | 50%毒性劑量 | 安全範圍 |
 | LD50 | 50%致死劑量 | 毒性評估 |
 | TI (治療指數) | TD50/ED50 | 越大越安全 |
-
-## 藥物命名原則
-
-| 命名類型 | 說明 | 範例 |
-|---------|------|------|
-| 化學名 | 精確化學結構 | (2-(4-(2-chlorophenyl)piperazin-1-yl)ethyl)dimethylamine |
-| 通用名（INN） | 國際非專利名稱 | Fluoxetine |
-| 商品名 | 藥廠命名 | Prozac, Sarafem |
 
 ## 給藥途徑與吸收
 
@@ -45,36 +36,12 @@ title: "01 - 受器、機制及其作用"
 | SL (舌下) | 快速（避開肝臟） | 緊急用藥 |
 | TD (經皮) | 慢、持續釋放 | 尼古丁貼片 |
 
-## 常見藥物動力學參數
-
-| 參數 | 正常值 | 臨床意義 |
-|------|--------|---------|
-| t1/2 (半衰期) | 藥物特異 | 給藥間隔 |
-| Vd (分佈體積) | 體重相關 | 劑量調整 |
-| Cl (廓清率) | 肝/腎功能相關 | 肝腎病患者劑量 |
-| Cmax (峰值濃度) | 給藥後最高濃度 | 療效/毒性指標 |
-| AUC (曲線摩機) | 整體暴露量 | 生可用率指標 |
-
-## 藥物交互作用
-
-### 交互作用類型
-
-| 類型 | 機轉 | 臨床意義 |
-|------|------|---------|
-| 相加 (Additive) | 1+1=2 | 劑量調整 |
-| 協同 (Synergistic) | 1+1>2 | 注意毒性 |
-| 拮抗 (Antagonistic) | 1+1<2 | 療效降低 |
-
-### 細胞色素P450系統（CYP450）
+## 細胞色素P450系統（ CYP450）
 
 | CYP酶 | 常見受質 | 抑制劑 | 誘導劑 |
 |-------|---------|--------|--------|
-| CYP3A4 | 40%藥物 | 紅黴素, ketoconazole | Rifampin, 癲通 |
-| CYP2D6 | 25%藥物 | Quinidine, fluoxetine | None |
-| CYP1A2 | 咖啡因, theophylline | Cimetidine, fluvoxamine | 戒煙, charcoal |
-| CYP2C19 | PPIs, clopidogrel | Omeprazole, fluoxetine | Rifampin |
+| CYP3A4 | 40%藥物 | 紅黴素, Ketoconazole | Rifampin, 癲通 |
+| CYP2D6 | 25%藥物 | Quinidine, Fluoxetine | None |
+| CYP1A2 | 咖啡因, Theophylline | Cimetidine, Fluvoxamine | 戒煙 |
+| CYP2C19 | PPIs, Clopidogrel | Omeprazole, Fluoxetine | Rifampin |
 | CYP2C9 | Warfarin, NSAIDs | Fluconazole | Rifampin |
-
----
-
-**注意**：本章內容為示意，實際章節內容待 OCR 處理後填入。
