@@ -23,6 +23,44 @@
 - CH27 肌肉鬆弛劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch27/
 - CH28 中樞神經興奮劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch28/
 - CH29 酒精: https://b101108063-ops.github.io/clinical_pharma/docs/ch29/
+- CH30 抗焦慮，鎮靜安眠劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch30/
+- CH31 抗精神病藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch31/
+- CH38 止暈藥 (Antivertigo Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch38/
+- CH39 增強腦部代謝藥物 (Brain Metabolism Strengtheners): https://b101108063-ops.github.io/clinical_pharma/docs/ch39/
+- CH52 化療藥 (Chemotherapy): https://b101108063-ops.github.io/clinical_pharma/docs/ch52/
+- CH53 標靶治療 (Targeted Therapy): https://b101108063-ops.github.io/clinical_pharma/docs/ch53/
+- CH54 免疫抑制劑 (Immunosuppressive Agents): https://b101108063-ops.github.io/clinical_pharma/docs/ch54/
+- CH55 免疫抑制抗體 (Immunosuppressive Antibodies): https://b101108063-ops.github.io/clinical_pharma/docs/ch55/
+- CH56 紅血球生成素 (Erythropoietin, EPO): https://b101108063-ops.github.io/clinical_pharma/docs/ch56/
+- CH57 白血球生長激素 (Bone Marrow Growth Factors): https://b101108063-ops.github.io/clinical_pharma/docs/ch57/
+- CH58 血小板生成素 (Thrombopoietin, TPO): https://b101108063-ops.github.io/clinical_pharma/docs/ch58/
+- CH59 糖尿病用藥 (Antidiabetic Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch59/
+- CH60 低血糖用藥 (Hypoglycemia Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch60/
+- CH61 抗甲狀腺藥物 (Antithyroid Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch61/
+- CH62 甲狀腺藥物 (Thyroid Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch62/
+- CH63 Adrenocorticosteroids: https://b101108063-ops.github.io/clinical_pharma/docs/ch63/
+- CH64 Corticosteroid 拮抗劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch64/
+- CH65 性激素藥物 (Sex Hormone Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch65/
+- CH66 Acromegaly 用藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch66/
+- CH67 減肥藥 (Anti-Obesity Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch67/
+- CH68 骨質疏鬆症用藥 (Osteoporosis Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch68/
+- CH69 口服避孕藥 (Oral Contraceptive Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch69/
+- CH70 引產用藥 (Labor Induction Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch70/
+- CH71 墮胎用藥 (Abortion Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch71/
+- CH72 安胎藥 (Tocolytics): https://b101108063-ops.github.io/clinical_pharma/docs/ch72/
+- CH73 泌尿科用藥 (Urology Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch73/
+- CH74 男性性功能障礙藥物 (Male Sexual Dysfunction Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch74/
+- CH75 止吐劑 (Antiemetics): https://b101108063-ops.github.io/clinical_pharma/docs/ch75/
+- CH76 消化性潰傷藥物 (Peptic Ulcer Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch76/
+- CH77 止瀉劑 (Antidiarrheal Agents): https://b101108063-ops.github.io/clinical_pharma/docs/ch77/
+- CH78 促腸胃蠕動藥物 (Prokinetic Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch78/
+- CH79 其他腸胃道藥物 (Other Gastrointestinal Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch79/
+- CH80 軟便劑 (Laxatives): https://b101108063-ops.github.io/clinical_pharma/docs/ch80/
+- CH81 祛痰、化痰、止咳藥、感冒藥 (Mucoactive Drugs): https://b101108063-ops.github.io/clinical_pharma/docs/ch81/
+- CH82 氧氣治療 (Oxygen Therapy): https://b101108063-ops.github.io/clinical_pharma/docs/ch82/
+- CH83 呼吸治療吸入劑 (Respiratory Inhalation Therapy): https://b101108063-ops.github.io/clinical_pharma/docs/ch83/
+- CH84 Asthma 用藥 (Asthma Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch84/
+- CH85 COPD 用藥 (COPD Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch85/
 - 10 - Vasopressin: https://b101108063-ops.github.io/clinical_pharma/docs/ch10/
 - 11 - Endothelin: https://b101108063-ops.github.io/clinical_pharma/docs/ch11/
 - 12 - Arachidonic Acid Cascade: https://b101108063-ops.github.io/clinical_pharma/docs/ch12/
@@ -30,5 +68,23 @@
 - 14 - 血清素: https://b101108063-ops.github.io/clinical_pharma/docs/ch14/
 - 15 - 麥角生物鹼: https://b101108063-ops.github.io/clinical_pharma/docs/ch15/
 - 16 - 體抑素: https://b101108063-ops.github.io/clinical_pharma/docs/ch16/
+- CH40 疼痛控制總論: https://b101108063-ops.github.io/clinical_pharma/docs/ch40/
+- CH41 NSAID, Acetaminophen: https://b101108063-ops.github.io/clinical_pharma/docs/ch41/
+- CH42 鴉片類藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch42/
+- CH43 痛風用藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch43/
+- CH44 風濕免疫用藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch44/
+- CH45 抗生素: https://b101108063-ops.github.io/clinical_pharma/docs/ch45/
+- CH46 經驗抗生素選擇: https://b101108063-ops.github.io/clinical_pharma/docs/ch46/
+- CH47 抗結核藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch47/
+- CH48 抗黴菌藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch48/
+- CH49 抗寄生蟲藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch49/
+- CH50 抗原蟲藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch50/
+- CH51 抗病毒藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch51/
+- CH32 精神科常用抗副作用藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch32/
+- CH33 抗憂鬱症藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch33/
+- CH34 躁鬱症用藥: https://b101108063-ops.github.io/clinical_pharma/docs/ch34/
+- CH35 抗癲癇藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch35/
+- CH36 Parkinson's Disease 治療藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch36/
+- CH37 Dementia 藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch37/
 
 
