@@ -23,7 +23,7 @@ body {
   color: #e94560 !important;
 }
 
-// Tables - beautiful dark design
+// Tables - beautiful dark design with white text
 table {
   width: 100%;
   border-collapse: collapse;
@@ -31,9 +31,9 @@ table {
   font-size: 0.85rem;
   overflow-x: auto;
   display: block;
-  background: #16213e;  // 深色背景
+  background: #16213e !important;  // 深色背景
   border-radius: 8px;
-  border: 1px solid #2a2a4a;
+  border: 1px solid #3a3a5a;
   
   @media (min-width: 768px) {
     display: table;
@@ -47,11 +47,12 @@ thead {
 
 th {
   background: #0f3460 !important;
-  color: #ffffff !important;
+  color: #ffffff !important;  // 白色標題
   padding: 0.75rem 1rem;
   text-align: left;
   font-weight: 600;
   border-bottom: 2px solid #e94560;
+  white-space: nowrap;
 }
 
 td {
@@ -59,18 +60,18 @@ td {
   padding: 0.6rem 1rem;
   text-align: left;
   border-bottom: 1px solid #2a2a4a;
-  color: #e0e0e0;
+  color: #ffffff !important;  // 白色文字
 }
 
 tr {
   background: #16213e !important;  // 深色背景
 }
 
-tr:nth-child(even) {
+tr:nth-child(even) td {
   background: #1a1a2e !important;  // 深色斑馬紋
 }
 
-tr:hover {
+tr:hover td {
   background: #0f3460 !important;
 }
 
