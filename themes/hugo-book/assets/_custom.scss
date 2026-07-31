@@ -51,7 +51,7 @@ article table td {
 .docs-content table,
 article table {
   overflow-x: auto !important;
-  display: table !important;
+  display: block !important;
   border-spacing: 0 !important;
   border-collapse: collapse !important;
   margin-top: 1rem !important;
@@ -59,6 +59,7 @@ article table {
   border-radius: 8px !important;
   border: 1px solid #3a3a5a !important;
   width: 100% !important;
+  max-width: 100% !important;
 }
 
 .markdown th,
@@ -71,10 +72,7 @@ article td {
   text-align: left !important;
   border: 1px solid #2a2a4a !important;
   vertical-align: top !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  max-width: 300px !important;
+  white-space: normal !important;
   font-size: 0.82em !important;
   line-height: 1.4 !important;
 }
