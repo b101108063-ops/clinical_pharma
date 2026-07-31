@@ -23,56 +23,80 @@ body {
   color: #e94560 !important;
 }
 
-// Tables - beautiful dark design with white text
+// Tables - FORCE dark background with !important
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.85rem;
-  overflow-x: auto;
-  display: block;
-  background: #16213e !important;  // 深色背景
-  border-radius: 8px;
-  border: 1px solid #3a3a5a;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 1rem 0 !important;
+  font-size: 0.85rem !important;
+  overflow-x: auto !important;
+  display: block !important;
+  background: #16213e !important;
+  border-radius: 8px !important;
+  border: 1px solid #3a3a5a !important;
+  color: #ffffff !important;
   
   @media (min-width: 768px) {
-    display: table;
-    font-size: 0.95rem;
+    display: table !important;
+    font-size: 0.95rem !important;
   }
 }
 
-thead {
+thead tr {
   background: #0f3460 !important;
 }
 
 th {
   background: #0f3460 !important;
-  color: #ffffff !important;  // 白色標題
-  padding: 0.75rem 1rem;
-  text-align: left;
-  font-weight: 600;
-  border-bottom: 2px solid #e94560;
-  white-space: nowrap;
+  color: #ffffff !important;
+  padding: 0.75rem 1rem !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid #e94560 !important;
+  white-space: nowrap !important;
+}
+
+tbody tr {
+  background: #16213e !important;
 }
 
 td {
-  background: #16213e !important;  // 深色背景
-  padding: 0.6rem 1rem;
-  text-align: left;
-  border-bottom: 1px solid #2a2a4a;
-  color: #ffffff !important;  // 白色文字
+  background: #16213e !important;
+  padding: 0.6rem 1rem !important;
+  text-align: left !important;
+  border-bottom: 1px solid #2a2a4a !important;
+  color: #ffffff !important;
 }
 
-tr {
-  background: #16213e !important;  // 深色背景
+tr:nth-child(even) td,
+tr:nth-child(even) {
+  background: #1a1a2e !important;
 }
 
-tr:nth-child(even) td {
-  background: #1a1a2e !important;  // 深色斑馬紋
-}
-
-tr:hover td {
+tbody tr:hover {
   background: #0f3460 !important;
+}
+
+// Override any theme table styles
+.markdown table,
+.content table,
+article table {
+  background: #16213e !important;
+  color: #ffffff !important;
+}
+
+.markdown th,
+.content th,
+article th {
+  background: #0f3460 !important;
+  color: #ffffff !important;
+}
+
+.markdown td,
+.content td,
+article td {
+  background: #16213e !important;
+  color: #ffffff !important;
 }
 
 // Links in content
@@ -102,14 +126,14 @@ tr:hover td {
 // Code blocks
 pre {
   background: #0f3460 !important;
-  border-radius: 8px;
-  padding: 1rem;
-  overflow-x: auto;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+  overflow-x: auto !important;
 }
 
 code {
   background: #0f3460 !important;
   color: #e0e0e0 !important;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 4px !important;
 }
