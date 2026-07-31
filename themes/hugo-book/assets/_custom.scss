@@ -23,7 +23,7 @@ body {
   color: #e94560 !important;
 }
 
-// TABLES - FORCE dark background with maximum specificity
+// TABLES - spacious design for text content
 .markdown table,
 .markdown table tbody,
 .markdown table thead,
@@ -51,13 +51,14 @@ article table td {
 .docs-content table,
 article table {
   overflow-x: auto !important;
-  display: block !important;
+  display: table !important;
   border-spacing: 0 !important;
   border-collapse: collapse !important;
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
   border-radius: 8px !important;
   border: 1px solid #3a3a5a !important;
+  width: 100% !important;
 }
 
 .markdown th,
@@ -66,9 +67,14 @@ article table {
 .docs-content td,
 article th,
 article td {
-  padding: 0.75rem 1rem !important;
+  padding: 1rem 1.25rem !important;
   text-align: left !important;
   border: 1px solid #2a2a4a !important;
+  vertical-align: top !important;  // 文字靠上
+  white-space: normal !important;  // 允許換行
+  word-wrap: break-word !important; // 單字過長時換行
+  line-height: 1.6 !important;     // 行高
+  min-height: 2rem !important;     // 最小高度
 }
 
 .markdown th,
@@ -77,6 +83,8 @@ article th {
   background: #0f3460 !important;
   font-weight: 600 !important;
   border-bottom: 2px solid #e94560 !important;
+  white-space: nowrap !important;  // 標題不要換行
+  vertical-align: middle !important;
 }
 
 .markdown tr:nth-child(2n),
