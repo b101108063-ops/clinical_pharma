@@ -67,14 +67,16 @@ article table {
 .docs-content td,
 article th,
 article td {
-  padding: 1rem 1.25rem !important;
+  padding: 6px 10px !important;
   text-align: left !important;
   border: 1px solid #2a2a4a !important;
-  vertical-align: top !important;  // 文字靠上
-  white-space: normal !important;  // 允許換行
-  word-wrap: break-word !important; // 單字過長時換行
-  line-height: 1.6 !important;     // 行高
-  min-height: 2rem !important;     // 最小高度
+  vertical-align: top !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 300px !important;
+  font-size: 0.82em !important;
+  line-height: 1.4 !important;
 }
 
 .markdown th,

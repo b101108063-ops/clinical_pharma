@@ -1,7 +1,7 @@
 臨床藥理精要
 
 - 章節目錄: https://b101108063-ops.github.io/clinical_pharma/docs/
-- 01 - 受器、機制及其作用: https://b101108063-ops.github.io/clinical_pharma/docs/ch01-receptor/
+- 01 - 受器、機制及其作用: https://b101108063-ops.github.io/clinical_pharma/docs/ch01/
 - 02 - 中樞神經傳導物質: https://b101108063-ops.github.io/clinical_pharma/docs/ch02/
 - 03 - PDE抑制劑: https://b101108063-ops.github.io/clinical_pharma/docs/ch03/
 - 04 - 擬交感神經藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch04/
@@ -61,6 +61,29 @@
 - CH83 呼吸治療吸入劑 (Respiratory Inhalation Therapy): https://b101108063-ops.github.io/clinical_pharma/docs/ch83/
 - CH84 Asthma 用藥 (Asthma Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch84/
 - CH85 COPD 用藥 (COPD Medications): https://b101108063-ops.github.io/clinical_pharma/docs/ch85/
+- CH86 電解質: https://b101108063-ops.github.io/clinical_pharma/docs/ch86/
+- CH87 IV輸液: https://b101108063-ops.github.io/clinical_pharma/docs/ch87/
+- CH88 全靜脈營養及周邊靜脈營養: https://b101108063-ops.github.io/clinical_pharma/docs/ch88/
+- CH89 血品與輸血: https://b101108063-ops.github.io/clinical_pharma/docs/ch89/
+- CH90 中毒急救藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch90/
+- CH91 維生素: https://b101108063-ops.github.io/clinical_pharma/docs/ch91/
+- CH92 保健食品: https://b101108063-ops.github.io/clinical_pharma/docs/ch92/
+- CH93 外用藥、皮膚科藥物: https://b101108063-ops.github.io/clinical_pharma/docs/ch93/
+- CH94 眼藥水/眼藥膏: https://b101108063-ops.github.io/clinical_pharma/docs/ch94/
+- CH95 疫苗: https://b101108063-ops.github.io/clinical_pharma/docs/ch95/
+- CH96 敷料: https://b101108063-ops.github.io/clinical_pharma/docs/ch96/
+- CH97 杀菌类伤口照护药物: https://b101108063-ops.github.io/clinical_pharma/docs/ch97/
+- CH98 无法归类者: https://b101108063-ops.github.io/clinical_pharma/docs/ch98/
+- CH99 飲食處方: https://b101108063-ops.github.io/clinical_pharma/docs/ch99/
+- CH100 核醫科檢查及治療: https://b101108063-ops.github.io/clinical_pharma/docs/ch100/
+- CH101 抗生素抗菌範圍: https://b101108063-ops.github.io/clinical_pharma/docs/ch101/
+- CH102 抗黴菌藥抗菌範圍: https://b101108063-ops.github.io/clinical_pharma/docs/ch102/
+- CH103 抗生素劑量－PO form: https://b101108063-ops.github.io/clinical_pharma/docs/ch103/
+- CH104 手術前後藥物給予指引: https://b101108063-ops.github.io/clinical_pharma/docs/ch104/
+- CH105 藥品血中濃度監測: https://b101108063-ops.github.io/clinical_pharma/docs/ch105/
+- CH106 ICU常用藥物配法: https://b101108063-ops.github.io/clinical_pharma/docs/ch106/
+- CH107 參考文獻: https://b101108063-ops.github.io/clinical_pharma/docs/ch107/
+- CH108 索引: https://b101108063-ops.github.io/clinical_pharma/docs/ch108/
 - 10 - Vasopressin: https://b101108063-ops.github.io/clinical_pharma/docs/ch10/
 - 11 - Endothelin: https://b101108063-ops.github.io/clinical_pharma/docs/ch11/
 - 12 - Arachidonic Acid Cascade: https://b101108063-ops.github.io/clinical_pharma/docs/ch12/

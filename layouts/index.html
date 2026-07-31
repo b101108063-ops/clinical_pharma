@@ -18,6 +18,21 @@
         .pdf-link { display: inline-block; background: #e94560; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin: 20px 0; }
         .pdf-link:hover { background: #ff6b6b; }
         footer { text-align: center; margin-top: 50px; padding: 20px; color: #666; border-top: 1px solid #333; }
+
+        /* Table fixes: no text wrapping, smaller font, horizontal scroll */
+        table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+        table th, table td {
+          padding: 6px 12px;
+          border: 1px solid #333;
+          font-size: 0.82em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 300px;
+        }
+        table th { background: #1e2a3a; color: #e94560; }
+        table tr:nth-child(2n) td { background: #16213e; }
+        .table-wrapper { overflow-x: auto; display: block; }
     </style>
 </head>
 <body>
