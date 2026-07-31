@@ -1,15 +1,119 @@
-/*
-  You can add custom styles here.
-  It could be plugins:
-    @import "plugins/numbered";
-    @import "plugins/scrollbars";
-    @import "plugins/themes";
-  Or custom styles:
-    body { background: white; }
-  Or even theme mixins:
-    @mixin theme-light {
-      --body-background: white;
-      --body-font-color: black;
-      ...
-    }
-*/
+// Custom styles for clinical pharma site - Dark theme + beautiful tables
+
+// Force dark theme for content area
+body {
+  background: #1a1a2e !important;
+  color: #e0e0e0 !important;
+}
+
+.docs {
+  background: #1a1a2e !important;
+  color: #e0e0e0 !important;
+}
+
+.docs-content {
+  background: #1a1a2e !important;
+  color: #e0e0e0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+// Headings in content
+.docs h1, .docs h2, .docs h3, .docs h4 {
+  color: #e94560 !important;
+}
+
+// Tables - beautiful responsive design
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  display: block;
+  background: #16213e;
+  border-radius: 8px;
+  
+  @media (min-width: 768px) {
+    display: table;
+    font-size: 0.95rem;
+  }
+}
+
+thead {
+  background: #0f3460 !important;
+}
+
+th {
+  background: #0f3460 !important;
+  color: #ffffff !important;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #e94560;
+}
+
+td {
+  padding: 0.6rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #2a2a4a;
+  color: #e0e0e0;
+}
+
+tr {
+  background: #16213e;
+}
+
+tr:nth-child(even) {
+  background: #1a1a2e;
+}
+
+tr:hover {
+  background: #0f3460 !important;
+}
+
+// Table responsiveness
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+// Code blocks
+pre {
+  background: #0f3460 !important;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  background: #0f3460 !important;
+  color: #e0e0e0 !important;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+// Links in content
+.docs a {
+  color: #e94560 !important;
+}
+
+.docs a:hover {
+  color: #ff6b6b !important;
+}
+
+// Lists
+.docs ul, .docs ol {
+  color: #e0e0e0;
+}
+
+// Bold and emphasis
+.docs strong {
+  color: #ffffff;
+}
+
+// Horizontal rules
+.docs hr {
+  border-color: #2a2a4a;
+}
