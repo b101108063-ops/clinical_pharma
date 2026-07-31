@@ -23,80 +23,72 @@ body {
   color: #e94560 !important;
 }
 
-// Tables - FORCE dark background with !important
-table {
-  width: 100% !important;
-  border-collapse: collapse !important;
-  margin: 1rem 0 !important;
-  font-size: 0.85rem !important;
+// TABLES - FORCE dark background with maximum specificity
+.markdown table,
+.markdown table tbody,
+.markdown table thead,
+.markdown table tr,
+.markdown table th,
+.markdown table td,
+.docs-content table,
+.docs-content table tbody,
+.docs-content table thead,
+.docs-content table tr,
+.docs-content table th,
+.docs-content table td,
+article table,
+article table tbody,
+article table thead,
+article table tr,
+article table th,
+article table td {
+  background: #16213e !important;
+  border-color: #2a2a4a !important;
+  color: #ffffff !important;
+}
+
+.markdown table,
+.docs-content table,
+article table {
   overflow-x: auto !important;
   display: block !important;
-  background: #16213e !important;
+  border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
   border-radius: 8px !important;
   border: 1px solid #3a3a5a !important;
-  color: #ffffff !important;
-  
-  @media (min-width: 768px) {
-    display: table !important;
-    font-size: 0.95rem !important;
-  }
-}
-
-thead tr {
-  background: #0f3460 !important;
-}
-
-th {
-  background: #0f3460 !important;
-  color: #ffffff !important;
-  padding: 0.75rem 1rem !important;
-  text-align: left !important;
-  font-weight: 600 !important;
-  border-bottom: 2px solid #e94560 !important;
-  white-space: nowrap !important;
-}
-
-tbody tr {
-  background: #16213e !important;
-}
-
-td {
-  background: #16213e !important;
-  padding: 0.6rem 1rem !important;
-  text-align: left !important;
-  border-bottom: 1px solid #2a2a4a !important;
-  color: #ffffff !important;
-}
-
-tr:nth-child(even) td,
-tr:nth-child(even) {
-  background: #1a1a2e !important;
-}
-
-tbody tr:hover {
-  background: #0f3460 !important;
-}
-
-// Override any theme table styles
-.markdown table,
-.content table,
-article table {
-  background: #16213e !important;
-  color: #ffffff !important;
 }
 
 .markdown th,
-.content th,
-article th {
-  background: #0f3460 !important;
-  color: #ffffff !important;
+.markdown td,
+.docs-content th,
+.docs-content td,
+article th,
+article td {
+  padding: 0.75rem 1rem !important;
+  text-align: left !important;
+  border: 1px solid #2a2a4a !important;
 }
 
-.markdown td,
-.content td,
-article td {
-  background: #16213e !important;
-  color: #ffffff !important;
+.markdown th,
+.docs-content th,
+article th {
+  background: #0f3460 !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid #e94560 !important;
+}
+
+.markdown tr:nth-child(2n),
+.docs-content tr:nth-child(2n),
+article tr:nth-child(2n) {
+  background: #1a1a2e !important;
+}
+
+.markdown tr:hover,
+.docs-content tr:hover,
+article tr:hover {
+  background: #0f3460 !important;
 }
 
 // Links in content
