@@ -23,7 +23,7 @@ body {
   color: #e94560 !important;
 }
 
-// Tables - beautiful responsive design
+// Tables - beautiful dark design
 table {
   width: 100%;
   border-collapse: collapse;
@@ -31,8 +31,9 @@ table {
   font-size: 0.85rem;
   overflow-x: auto;
   display: block;
-  background: #16213e;
+  background: #16213e;  // 深色背景
   border-radius: 8px;
+  border: 1px solid #2a2a4a;
   
   @media (min-width: 768px) {
     display: table;
@@ -54,6 +55,7 @@ th {
 }
 
 td {
+  background: #16213e !important;  // 深色背景
   padding: 0.6rem 1rem;
   text-align: left;
   border-bottom: 1px solid #2a2a4a;
@@ -61,37 +63,15 @@ td {
 }
 
 tr {
-  background: #16213e;
+  background: #16213e !important;  // 深色背景
 }
 
 tr:nth-child(even) {
-  background: #1a1a2e;
+  background: #1a1a2e !important;  // 深色斑馬紋
 }
 
 tr:hover {
   background: #0f3460 !important;
-}
-
-// Table responsiveness
-.table-wrapper {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  max-width: 100%;
-}
-
-// Code blocks
-pre {
-  background: #0f3460 !important;
-  border-radius: 8px;
-  padding: 1rem;
-  overflow-x: auto;
-}
-
-code {
-  background: #0f3460 !important;
-  color: #e0e0e0 !important;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
 }
 
 // Links in content
@@ -116,4 +96,19 @@ code {
 // Horizontal rules
 .docs hr {
   border-color: #2a2a4a;
+}
+
+// Code blocks
+pre {
+  background: #0f3460 !important;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  background: #0f3460 !important;
+  color: #e0e0e0 !important;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
